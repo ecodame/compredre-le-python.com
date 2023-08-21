@@ -1,0 +1,82 @@
+
+
+.video{
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.iconbar{
+    background: rgb(255, 255, 255);
+    top: 0;
+    text-align: center;
+    padding: 12px;
+    width: 100%;
+    font-size: 10px;
+}
+
+.backo{
+       background: #2362b0;
+        text-align: center;
+        width: 80%;
+        margin-left: 100px;
+        padding: 8px;
+        color: aliceblue;
+        margin-top: 20px;
+}
+.backo h4 a{
+    color: #fff;
+}
+
+.changement{
+    display: flex;
+    justify-content: space-around;
+}
+@media all and (max-width: 771px) {
+    body{
+        background: white;
+    }
+    
+    .backo{
+        background: #2362b0;
+        text-align: center;
+        width: 70%;
+        margin-left: 50px;
+        padding: 8px;
+        color: aliceblue;
+        margin-top: 20px;
+    }
+    
+    .changement{
+        flex-direction: column;
+    }
+    .backo h4 a{
+        color: #fff;
+    }
+    
+    .classement{
+        background: #0e4d9a;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    
+    
+    .video{
+        text-align: center;
+        margin-top: 30px;
+    
+    }
+    
+    
+    .iconbar{
+        background: rgb(255, 255, 255);
+        top: 0;
+        text-align: center;
+        padding: 12px;
+        width: 100%;
+        font-size: 10px;
+    }
+    .video h5 i{
+        color: #607c9e;
+    }
+}
